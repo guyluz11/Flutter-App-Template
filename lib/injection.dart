@@ -11,7 +11,7 @@ late String currentEnv;
 @injectableInit
 void configureDependencies(String env) {
   currentEnv = env;
-  logger.i('Current CyBear Jinni App environment name: $currentEnv');
+  logger.i('Current Flutter Template App environment name: $currentEnv');
   $initGetIt(getIt, environment: env);
 }
 
